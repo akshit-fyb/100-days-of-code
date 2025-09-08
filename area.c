@@ -3,20 +3,18 @@
 int main() {
     float length, breadth, area, perimeter;
 
-    // Input length and width
     printf("Enter the length : ");
     scanf("%f", &length);
 
     printf("Enter the breath : ");
     scanf("%f", &breadth);
 
-    
     area = length * breadth;
     perimeter = 2 * (length + breadth);
 
-    
     printf("Area of the rectangle = %f\n", area);
     printf("Perimeter of the rectangle = %f\n", perimeter);
 
     return 0;
 }
+
